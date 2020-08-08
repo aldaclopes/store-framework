@@ -7,9 +7,9 @@
     padding: 24px;
 }
 
-.infoCardImageContainer {
+.infoCardContainer {
     max-width: 1260px;
-    margin:  auto;
+    margin:  0 auto;
     padding: 0px;
 }
 
