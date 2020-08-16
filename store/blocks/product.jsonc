@@ -1,9 +1,5 @@
 {
   "store.product": {
-    "props": { 
-      "verticalAlign": "center",
-      "preventVerticalStretch": true
-    },
       "children": [
         "flex-layout.row#main"
       ]
@@ -11,9 +7,7 @@
    
     "flex-layout.row#main": { 
       "props": { 
-        "marginTop": 6,
-        "verticalAlign": "center",
-        "preventVerticalStretch": true
+        "marginTop": 6
       },
       "children": [
         "flex-layout.col#left",
@@ -21,17 +15,13 @@
       ]
     },
     "flex-layout.col#left": {
-      "props": { 
-        "verticalAlign": "center",
-        "preventVerticalStretch": true
-      },
       "children": [
         "product-images"
       ]
     },
     "flex-layout.col#right": {
       "props": { 
-        "verticalAlign": "center",
+        "verticalAlign": "middle",
         "preventVerticalStretch": true
       },
       "children": [
