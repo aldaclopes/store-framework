@@ -1,5 +1,9 @@
 {
   "store.product": {
+    "props": { 
+      "verticalAlign": "center",
+      "preventVerticalStretch": true
+    },
       "children": [
         "flex-layout.row#main"
       ]
@@ -7,7 +11,9 @@
    
     "flex-layout.row#main": { 
       "props": { 
-        "marginTop": 6
+        "marginTop": 6,
+        "verticalAlign": "center",
+        "preventVerticalStretch": true
       },
       "children": [
         "flex-layout.col#left",
